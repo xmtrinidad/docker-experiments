@@ -35,3 +35,12 @@ Docker commands are usually in the following format:
 ```docker rm $(docker ps -a -q)```
 
  from https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers
+
+## Section 3 Commands Continued
+
+`docker container inspect <containerid>`
+`docker container stats`
+
+## Getting a A Shell Inside Containers
+
+`docker container run -it --name proxy nginx bash`
